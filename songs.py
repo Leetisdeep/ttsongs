@@ -10,7 +10,7 @@ def get_songs():
 
     songs_stuff = soup.find('tbody').find_all('tr')
     for song in songs_stuff:
-        if song.find('img') == None: break
+        if song.find('img') == None or song.find('audio') == None: break
         image_url = song.find('img').get('src')
         audio_url = song.find('audio').get('src')
         title = song.find('a',{'class':'hover:underline'}).get_text()
