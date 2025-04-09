@@ -2,6 +2,7 @@
 
 ### Using
 Right now you can run server.py so you can see web on your own(running as local)
+"http://127.0.0.1:5000/today"
 
 ### Info
 So this is an app(web) which just parse songs and displays list of those songs
