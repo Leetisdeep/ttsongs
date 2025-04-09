@@ -10,3 +10,4 @@ but code could get adepted to any other website too
 
 ### Extra info
 In a better way you would need to store html and style as files , while i store them as strings on server.py
+And overall there is many things which could get improved
